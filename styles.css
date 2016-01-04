@@ -1,0 +1,45 @@
+@import url(http://fonts.googleapis.com/css?family=Noto+Sans&subset=latin-ext,latin);
+
+*, html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section { display: block; }
+
+/* g³ówne ustawienia - basic options */
+html, body { height:100%; }
+body { width:100%; min-height:100%; background:url('images/background.jpg') top center no-repeat; background-size:cover; overflow:hidden; position:relative; font-family:Arial, Verdana, Tahoma, 'Noto Sans', sans-serif; font-size:14px; }
+ul, ul li { float:left; list-style:none; }
+a { color:#444; text-decoration:none; }
+a:hover { color:#343434; }
+/* tekstury - textures */
+#dot-texture { background:url('images/dot-texture.png') repeat; width:100%; height:100%; float:left; opacity:0.15; position:absolute; z-index:-1; }
+/* nag³owek - header */
+header { background:url('images/line-texture.png') repeat; width:100%; height:66px; border-bottom:3px solid #83b067; }
+header h1 {line-height:66px; float:left; margin:0 20px; }
+header h1 img { vertical-align:middle; }
+/* nawigacja - nav */
+nav { float:right; position:relative; z-index:999; margin:0 20px; line-height:66px; font-family:'Noto Sans', sans-serif; }
+nav li a { padding:0 10px; float:left; }
+nav li a:hover { background:rgba(0,0,0,0.1); border-bottom:3px solid #5e8944; }
+/* g³ówna treœæ naszej strony - section */
+section { width:400px; height:155px; position:absolute; top:50%; left:50%; margin-left:-200px; margin-top:-77.5px; }
+section form { width:400px; float:left; }
+section form input { width:360px; height:45px; float:left; margin-bottom:10px; padding:0 20px; }
+section input[type~=text], section input[type~=password] { background:url('images/line-texture.png') repeat; color:#444; }
+section input[type~=submit] { background:url('images/submit-bg.png') repeat; width:400px; margin-bottom:0; text-align:center; color:#fff; font-weight:bold; }
+/* stopka - footer */
+footer { position:absolute; bottom:20px; right:20px; color:#fff; font-size:12px; }
+footer a { color:#fff; font-weight:bold; }
+footer a:hover { color:#fff; border-bottom:1px dotted #fff; }

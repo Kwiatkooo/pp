@@ -1,0 +1,1 @@
+﻿Panel gracza jest w trakcje przebudowy. Przepraszamy za problemy!
